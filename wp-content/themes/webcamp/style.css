@@ -1,0 +1,201 @@
+/*
+Theme Name: WebcampZG
+Theme URI: 
+Author: Trikoder
+Author URI: http://trikoder.net/
+Description: Moj mali poklon za drugove Miru i Luku. Davor :)
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: 
+*/
+
+*		{ margin:0; padding:0; }
+html,
+body	{ width: 100%; height: 100%; }
+body	{ background: #0a2330 !important; font-family: Arial, Helvetica, sans-serif; color: #fff; }
+a		{ text-decoration: none; }
+img		{ border: none; }
+
+.cf:before,
+.cf:after		{ content: "\0020"; display: block; height: 0; overflow: hidden; }
+.cf:after		{ clear: both; }
+
+#header,
+.date,
+.postlist h2,
+.post h1,
+.col02 h3,
+.nav,
+.postlist .more	{ font-family: 'Arvo', serif;}
+
+#header				{ background: url(images/gridtop.png) top center no-repeat; width: 100%; min-width: 1000px; }
+#header > div		{ width: 1000px; height: 274px; margin: 0px auto 60px; position: relative; }
+#header .brand		{ position: relative; top: 44px; left: 35px; }
+#header h1			{ font-size: 22px; font-weight: normal; text-transform: lowercase;  text-shadow: 1px 0px 0px rgba(0,0,0, 0.35); margin-bottom: 5px; background: url(images/dotblur.png) 203px 5px no-repeat; }
+#header h1 strong	{ font-size: 40px; font-weight: bold; margin-right: 23px; }
+#header h1 a		{ text-decoration: none; color: #fff; }
+#header .brand p	{ font-size: 14px; font-weight: normal; text-transform: uppercase; text-shadow: 1px 0px 0px rgba(0,0,0, 0.6); }
+
+#header .banner			{ position: absolute; top: 70px; right: 20px; text-shadow: 1px 0px 0px rgba(0,0,0, 0.6); height: 80px; width: 325px; background: url(images/arrow.png) center right no-repeat; }
+#header .banner strong	{ font-size: 20px; color: #ffed00; font-weight: bold; }
+#header .banner p		{ font-size: 16px; color: #aca095; width: 280px; }
+#header .banner:hover p	{ color: #fff; }
+
+#content		{ width: 940px; padding: 0 30px; margin: 0px auto 20px; overflow: hidden; }
+#content .col01	{ float: left; width: 660px; padding-right: 20px; border-right: 1px solid rgba(255,255,255, 0.1); }
+#content .col02	{ float: right; width: 240px; }
+
+.date			{ float: left; height: 80px; width: 80px; border-radius: 100px; border: 10px solid #09212d;  background-color: rgba(255, 255, 255, 0.15); text-align: center; color: #d6c40e; font-weight: bold; font-size: 12px; text-shadow: 1px 0px 0px rgba(0,0,0, 0.6); }
+.date strong	{ display: block; font-size: 32px; color: #fff; margin-top: 20px; }
+
+.postlist h2,
+.post h1			{ font-size: 32px; line-height: 40px; font-weight: normal; color: #fff; text-shadow: 1px 0px 0px rgba(0,0,0, 0.6); margin: 10px 0 20px; }
+.postlist h2 a		{ color: #fff; }
+
+.post			{ font-size: 16px; line-height: 24px; color: #aca095; text-shadow: 1px 0px 0px rgba(0,0,0, 0.6); margin-bottom: 20px; }
+.post .wrap		{ overflow: hidden; padding-left: 15px; }
+.post h2 a:hover	{ text-decoration: underline; }
+.post p,
+.post ul,
+.post ol		{ margin-bottom: 20px; }
+.post ul ul,
+.post ol ol		{ margin-left: 25px; }
+.post a			{ color: #ffed00; text-decoration: none; }
+.post a:hover	{ text-decoration: underline;  }
+
+.post table	{ width: 100%; cellspacing: 0; cellpadding: 0; margin: 0px -10px; }
+.post table th,
+.post table td	{ vertical-align: top; text-align: left; padding: 5px 10px; border-bottom: 1px solid rgba(255,255,255, 0.1); }
+.post table th	{ font-weight: bold; }
+
+.postlist			{ list-style: none; margin-bottom: 40px; }
+.postlist li		{ margin-bottom: 30px; }
+.postlist p			{ margin: 0px; }
+.postlist .more		{ font-weight: bold; font-size: 16px; display: block; margin-top: 10px; }
+
+.social		{ margin-bottom: 20px; }
+.social div	{ float: left; margin-right: 15px; }
+.social .tw	{ padding-top: 1px; }
+
+.nav			{ overflow: hidden; margin: 0 0px 20px 0; }
+.nav span		{ font-size: 16px; font-weight: bold; text-decoration: none; color: #ffed00; line-height:37px; background: url(images/nav.png) no-repeat; }
+.nav a			{ color: #ffed00; }
+.nav a:hover	{ text-decoration: underline; }
+.nav .prev		{ float: left; background-position: bottom left; padding-left: 45px; }
+.nav .next		{ float: right; background-position: top right; padding-right: 45px; }
+.nav .off		{ opacity: .25; filter: alpha(opacity=25); cursor: auto; }
+.nav .off:hover	{ text-decoration: none; }
+
+.col02 h3	{ font-size: 17px; font-weight: bold; text-transform: uppercase; text-shadow: 1px 0px 0px rgba(0,0,0, 0.6); margin: 20px 0 10px 5px; color: #bcad20; }
+
+.s_logo				{ display: block; width: 250px; height: 80px; background: url(images/sponsors/sprite.png); margin-left: -5px; text-indent: -9999px; overflow: hidden; }
+.s_logo.ng			{ background-position: 0px 0px; }
+.s_logo.ng:hover	{ background-position: -300px 0px; }
+.s_logo.de			{ background-position: 0px -80px; }
+.s_logo.de:hover	{ background-position: -300px -80px; }
+.s_logo.ac			{ background-position: 0px -155px; }
+.s_logo.ac:hover	{ background-position: -300px -155px; }
+.s_logo.dk			{ background-position: 0px -230px; }
+.s_logo.dk:hover	{ background-position: -300px -230px; }
+.s_logo.ms			{ background-position: 0px -307px; }
+.s_logo.ms:hover	{ background-position: -300px -307px; }
+.s_logo.lt			{ background-position: 0px -390px; }
+.s_logo.lt:hover	{ background-position: -300px -390px; }
+.s_logo.sr			{ background-position: 0px -476px; }
+.s_logo.sr:hover	{ background-position: -300px -476px; }
+.s_logo.tk			{ background-position: 0px -565px; }
+.s_logo.tk:hover	{ background-position: -300px -565px; }
+.s_logo.hg			{ background-position: 0px -649px; }
+.s_logo.hg:hover	{ background-position: -300px -649px; }
+.s_logo.ad			{ background-position: 0px -750px; width: 100px; height: 90px; }
+.s_logo.ad:hover	{ background-position: -301px -750px; }
+
+#footer				{ height: 196px; min-width: 1000px; padding: 75px 0 0 0; background: url(images/gridbot.png) center bottom no-repeat; }
+
+#footer ul			{ list-style: none; text-align: center; height: 160px; }
+#footer li			{ display: inline; }
+#footer li a		{ display: inline-block; height: 60px; margin: 0 5px 10px; background: url(images/sponsors/sprite2.png); text-indent: -9999px; overflow: hidden; }
+#footer p			{ width: 570px; margin: 0px auto; padding: 0 5px; font-size: 11px; line-height: 16px; color: #aca095; }
+#footer p a			{ color: #ffed00; }
+#footer p a:hover	{ text-decoration: underline;  }
+
+#footer li a.cs	{ background-position: -25px -10px; width: 130px; }
+#footer li a.cs:hover	{ background-position: -25px -80px; }
+#footer li a.mc	{ background-position: -175px -15px; width: 230px; }
+#footer li a.mc:hover	{ background-position: -175px -85px; }
+#footer li a.hr	{ background-position: -430px -10px; width: 75px; }
+#footer li a.hr:hover	{ background-position: -430px -80px; }
+#footer li a.fh	{ background-position: -525px -10px; width: 85px; }
+#footer li a.fh:hover	{ background-position: -525px -80px; }
+#footer li a.zp	{ background-position: -625px -10px; width: 80px; }
+#footer li a.zp:hover	{ background-position: -625px -80px; }
+#footer li a.hp	{ background-position: -725px -15px; width: 120px; }
+#footer li a.hp:hover	{ background-position: -725px -85px; }
+#footer li a.hj	{ background-position: -865px -10px; width: 115px; }
+#footer li a.hj:hover	{ background-position: -865px -80px; }
+
+article header { margin-bottom: 10px; }
+article .entry-content p, article .entry-content h4 { margin-bottom: 10px; }
+article .entry-content h4 { color: #ACA095; font-weight: bold; }
+article .entry-content p { color: #ACA095; line-height: 24px; text-align: justify; }
+
+@media (max-width: 600px) {
+
+	html,
+	body	{ width: auto; height: auto; overflow: visible; }
+
+	#header	{ background: #05151d; min-width: 0; }
+	#header > div	{ width: auto; height: auto; margin: 0; }
+	#header .brand	{ position: static; }
+	#header h1	{ font-size: 14px; padding: 10px 10px 5px 10px; margin: 0; background-position: 110px 5px; }
+	#header h1 strong	{ font-size: 20px; margin-right: 15px; }
+	#header .brand p	{ font-size: 10px; padding: 0 10px 10px; }
+
+	#header .banner			{ display: block; position: static; height: auto; width: auto; background: #020f15 url(images/arrow.png) center right no-repeat; border: 5px solid #020f15; border-width: 5px 10px; }
+	#header .banner strong	{ font-size: 12px; }
+	#header .banner p		{ font-size: 10px; width: auto; text-transform: uppercase; padding-right: 15px; }
+
+	#content	{ width: auto; margin: 0; padding: 0; }
+	#content .col01	{ width: 100%; float: none; padding: 0 0 20px 0; border: none; }
+	#content .col02	{ width: 100%; float: none; background: #05151d; overflow: hidden; padding: 10px 5px 0 5px !important; }
+
+	.date			{ float: left; height: 80px; width: 80px; border-radius: 100px; border: 10px solid #09212d;  background-color: rgba(255, 255, 255, 0.15); text-align: center; color: #d6c40e; font-weight: bold; font-size: 12px; text-shadow: 1px 0px 0px rgba(0,0,0, 0.6); }
+	.date strong	{ display: block; font-size: 32px; color: #fff; margin-top: 20px; }
+
+	.date	{ display: none; }
+
+	.postlist h2,
+	.post h1			{ font-size: 18px; line-height: 22px; margin: 0 0 5px 0; }
+
+	.post			{ font-size: 13px; line-height: 16px; margin: 0px; padding: 10px; }
+	.post .wrap		{ padding-left: 0px; }
+	.post p,
+	.post ul,
+	.post ol		{ margin-bottom: 10px; }
+	.post ul ul,
+	.post ol ol		{ margin-left: 15px; }
+
+	.postlist			{ margin: 0px; }
+	.postlist li		{ margin: 0px; border-top: 2px solid #05151d; margin: 0; }
+	.postlist li:first-child	{ border: none; }
+	.postlist li p	{ margin: 0; }
+	.postlist .more		{ font-size: 11px; margin-top: 5px; font-family: arial, sans-serif; text-transform: uppercase; }
+
+	.nav	{ margin: 0 10px; }
+	.nav span	{ height: 37px; text-indent: -9999px; }
+
+	.col02 h3	{ display: none; }
+
+	#footer				{ height: auto; min-width: 0px; background: none; padding: 0; }
+	#footer > div		{ width: auto; height: auto; overflow: auto; padding: 10px; }
+	#footer p			{ margin-top: 0px; width: auto; padding: 10px; }
+
+	#footer ul		{ background: #05151d; overflow: hidden; padding: 0 5px 10px !important; height: auto; }
+	#footer ul li	{ float: left; }
+	.s_logo,
+	#footer ul a	{ font-size: 12px; color: #fff; font-weight: bold; text-transform: uppercase; float: left; width: auto !important; height: auto !important; background: none !important; margin: 2px 5px; text-indent: 0px; }
+
+	#footer .brand3k		{ width: 33px; height: 20px; background-size: 33px 20px; }
+}
